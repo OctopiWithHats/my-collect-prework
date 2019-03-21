@@ -3,5 +3,6 @@ def my_collect(array)
   result = []
   while i<array.length
     block_given?
-    result<<yield(array[]
+    result<<yield(array[i])
+    
 
