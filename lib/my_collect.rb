@@ -5,5 +5,7 @@ def my_collect(array)
     block_given?
     result << yield(array[i])
     i = i+1
-    
+  end
+  result
+end
 
